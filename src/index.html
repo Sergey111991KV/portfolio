@@ -131,7 +131,7 @@
         <span class="section__subtitle">My introduction</span>
 
         <div class="about__container container grid">
-            <img  src="<%=require('./assets/img/about.jpeg')%>" alt="" class="about__img">
+            <img src="<%=require('./assets/img/about.jpeg')%>" alt="" class="about__img">
 
             <div class="about__data">
                 <p class="about__description">
@@ -155,7 +155,7 @@
                 </div>
 
                 <div class="about__buttons">
-                    <a download="" href="assets/pdf/Resume.pdf" class="button button--flex">
+                    <a download="" href="<%=require('./assets/pdf/Resume.pdf')%>" class="button button--flex">
                         Download CV<i class="uil uil-download-alt button__icon"></i>
                     </a>
                 </div>
@@ -624,12 +624,12 @@
     </section>
 
     <!--==================== PORTFOLIO ====================-->
-    <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Portfolio</h2>
-        <span class="section__subtitle">Most recent work</span>
+<!--    <section class="portfolio section" id="portfolio">-->
+<!--        <h2 class="section__title">Portfolio</h2>-->
+<!--        <span class="section__subtitle">Most recent work</span>-->
 
-        <div class="portfolio__container container swiper-container">
-            <div class="swiper-wrapper">
+<!--        <div class="portfolio__container container swiper-container">-->
+<!--            <div class="swiper-wrapper">-->
                 <!--==================== PORTFOLIO 1 ====================-->
 <!--                <div class="portfolio__content grid swiper-slide">-->
 <!--                    <img src="assets/img/Futsalin-Kuy-Web.png" alt="" class="portfolio__img">-->
@@ -648,17 +648,17 @@
 <!--                </div>-->
                 <!--==================== PORTFOLIO 2 ====================-->
 
-            </div>
-            <div class="swiper-button-next">
-                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-            </div>
-            <div class="swiper-button-prev">
-                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-            </div>
+<!--            </div>-->
+<!--            <div class="swiper-button-next">-->
+<!--                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>-->
+<!--            </div>-->
+<!--            <div class="swiper-button-prev">-->
+<!--                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>-->
+<!--            </div>-->
 
-            <div class="swiper-pagination"></div>
-        </div>
-    </section>
+<!--            <div class="swiper-pagination"></div>-->
+<!--        </div>-->
+<!--    </section>-->
 
     <!--==================== PROJECT IN MIND ====================-->
     <!-- <section class="project section">
@@ -789,6 +789,7 @@
                     <div>
                         <h3 class="contact__title">Location</h3>
                         <span class="contact__subtitle">Pyatigorsk - Russia</span>
+                        <br/>
                         <span class="contact__subtitle">Ready to move</span>
                     </div>
                 </div>

@@ -86,7 +86,7 @@ module.exports = {
     },
     output: {
         filename: filename('js'),
-        assetModuleFilename: 'assets/img/[name][ext]',
+        assetModuleFilename: 'assets/[name][ext]',
         // filename: '[name].[contenthash].js',
         path: path.resolve(__dirname, 'dist'),
         clean: true
@@ -118,7 +118,7 @@ module.exports = {
                 use: cssLoaders('sass-loader')
             },
             {
-                test: /\.(png|svg|jpeg|jpg)$/,
+                test: /\.(png|svg|jpeg|jpg|pdf)$/,
                 type: 'asset/resource'
             },
             {
