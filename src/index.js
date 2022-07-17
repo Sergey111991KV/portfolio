@@ -1,3 +1,8 @@
+import Swiper from './swiper-bundle.min'
+import './emailSend'
+import './styles/styles.css'
+import './styles/swiper-bundle.min.css'
+
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById("nav-menu");
 const navToggle = document.getElementById("nav-toggle");
@@ -27,6 +32,7 @@ function linkAction() {
     // When we click on each nav__link, we remove the show-menu class
     navMenu.classList.remove("show-menu");
 }
+
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*==================== ACCORDION SKILLS ====================*/
@@ -134,7 +140,7 @@ function scrollActive() {
     sections.forEach((current) => {
         const sectionHeight = current.offsetHeight;
         const sectionTop = current.offsetTop - 50;
-        sectionId = current.getAttribute("id");
+        let sectionId = current.getAttribute("id");
 
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             document
@@ -147,6 +153,7 @@ function scrollActive() {
         }
     });
 }
+
 window.addEventListener("scroll", scrollActive);
 
 /*==================== CHANGE BACKGROUND HEADER ====================*/
@@ -156,6 +163,7 @@ function scrollHeader() {
     if (this.scrollY >= 80) nav.classList.add("scroll-header");
     else nav.classList.remove("scroll-header");
 }
+
 window.addEventListener("scroll", scrollHeader);
 
 /*==================== SHOW SCROLL UP ====================*/
@@ -165,6 +173,7 @@ function scrollUp() {
     if (this.scrollY >= 560) scrollUp.classList.add("show-scroll");
     else scrollUp.classList.remove("show-scroll");
 }
+
 window.addEventListener("scroll", scrollUp);
 
 /*==================== DARK LIGHT THEME ====================*/

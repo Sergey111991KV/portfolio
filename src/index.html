@@ -7,11 +7,6 @@
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
 
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
-    <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="assets/css/styles.css">
 
     <title>Sergey Kosilov</title>
 </head>
@@ -77,19 +72,18 @@
         <div class="home__container container grid">
             <div class="home__content grid">
                 <div class="home__social">
-                    <a href="https://www.linkedin.com/in/muhammad-fadhila/" target="_blank" class="home__social-icon">
+                    <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon">
                         <i class="uil uil-linkedin-alt"></i>
                     </a>
-                    <a href="https://dribbble.com/Fadhila36" target="_blank" class="home__social-icon">
-                        <i class="uil uil-dribbble"></i>
-                    </a>
-                    <a href="https://www.github.com/fadhila36" target="_blank" class="home__social-icon">
+
+                    <a href="https://www.github.com" target="_blank" class="home__social-icon">
                         <i class="uil uil-github-alt"></i>
                     </a>
                 </div>
 
                 <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
                         <mask id="mask0" mask-type="alpha">
                             <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
                             130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
@@ -102,7 +96,9 @@
                             129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
                             -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
 
-                            <image class="home__blob-img" xlink:href="assets/img/perfil.jpeg"/>
+<!--                            <image class="home__blob-img" src="<%=require('./assets/img/about.jpeg')%>" alt="image"/>-->
+                            <image class="home__blob-img"  xlink:href="<%=require('./assets/img/perfil.jpeg')%>" alt="image"/>
+
                         </g>
                     </svg>
                 </div>
@@ -111,7 +107,7 @@
                     <h1 class="home__title">Hi, I'm Sergey Kosilov</h1>
                     <h3 class="home__subtitle">Frontend developer</h3>
                     <p class="home__description">
-                       Some knowledge of js and haskell
+                        Some knowledge of js and haskell
                     </p>
                     <a href="#contact" class="button button--flex">
                         Contact Me <i class="uil uil-message button__icon"></i>
@@ -135,7 +131,7 @@
         <span class="section__subtitle">My introduction</span>
 
         <div class="about__container container grid">
-            <img src="assets/img/fadhilaa.png" alt="" class="about__img">
+            <img  src="<%=require('./assets/img/about.jpeg')%>" alt="" class="about__img">
 
             <div class="about__data">
                 <p class="about__description">
@@ -635,130 +631,22 @@
         <div class="portfolio__container container swiper-container">
             <div class="swiper-wrapper">
                 <!--==================== PORTFOLIO 1 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/img/Futsalin-Kuy-Web.png" alt="" class="portfolio__img">
+<!--                <div class="portfolio__content grid swiper-slide">-->
+<!--                    <img src="assets/img/Futsalin-Kuy-Web.png" alt="" class="portfolio__img">-->
 
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">ONLINE FUTSAL FIELD BOOKING</h3>
-                        <p class="portfolio__description">
-                            Web for online Futsal Field Booking for Karawang area.
-                        </p>
-                        <a href="https://testwebunifyst.rf.gd/futsal/?i=1" class="button button--flex button--small portfolio__button">
-                            Demo
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                </div>
+<!--                    <div class="portfolio__data">-->
+<!--                        <h3 class="portfolio__title">ONLINE FUTSAL FIELD BOOKING</h3>-->
+<!--                        <p class="portfolio__description">-->
+<!--                            Web for online Futsal Field Booking for Karawang area.-->
+<!--                        </p>-->
+<!--                        <a href="https://testwebunifyst.rf.gd/futsal/?i=1"-->
+<!--                           class="button button&#45;&#45;flex button&#45;&#45;small portfolio__button">-->
+<!--                            Demo-->
+<!--                            <i class="uil uil-arrow-right button__icon"></i>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
                 <!--==================== PORTFOLIO 2 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/img/Web-Chat-Dosen.png" alt="" class="portfolio__img">
-
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">CHAT LECTURER</h3>
-                        <p class="portfolio__description">
-                            Lecturer Web Chat, with templates according to lecture chat attitude.
-                        </p>
-                        <a href="http://himatif.ubpkarawang.ac.id/chat-dosen/" class="button button--flex button--small portfolio__button">
-                            Demo
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-                <!--==================== PORTFOLIO 3 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/img/pgsd.png" alt="" class="portfolio__img">
-
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">Teacher Education and Elementary School of Buana Perjuangan Karawang University</h3>
-                        <p class="portfolio__description">
-                            Web for Teacher Education Study Program (PGSD) UBP Karawang.
-                        </p>
-                        <a href="http://pgsd.ubpkarawang.ac.id/" class="button button--flex button--small portfolio__button">
-                            Demo
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!--==================== PORTFOLIO 4 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/img/ppkn.png" alt="" class="portfolio__img">
-
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">Pancasila Education and Citizenship of Buana Perjuangan Karawang University</h3>
-                        <p class="portfolio__description">
-                            Web for Pancasila Education and Citizenship Study Program (PPKN) UBP Karawang.
-                        </p>
-                        <a href="http://ppkn.ubpkarawang.ac.id/" class="button button--flex button--small portfolio__button">
-                            Demo
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!--==================== PORTFOLIO 5 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/img/lppm.png" alt="" class="portfolio__img">
-
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">LPPM Buana Perjuangan Karawang University</h3>
-                        <p class="portfolio__description">
-                            Web for LPPM UBP Karawang.
-                        </p>
-                        <a href="http://lppm.ubpkarawang.ac.id/" class="button button--flex button--small portfolio__button">
-                            Demo
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!--==================== PORTFOLIO 6 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/img/Manajemen-Keuangan.png" alt="" class="portfolio__img">
-
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">Lapak Karawang Finance Web Management</h3>
-                        <p class="portfolio__description">
-                            Lapak Karawang Finance Web Management.
-                        </p>
-                        <a href="#" class="button button--flex button--small portfolio__button">
-                            Demo
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!--==================== PORTFOLIO 7 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/img/Selamat-Datang-di-Toko-Lapak-Sayur-Lapak-Sayur-min.png" alt="" class="portfolio__img">
-
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">Lapak Sayur Karawang</h3>
-                        <p class="portfolio__description">
-                            Web for vegetable sales in Karawang.
-                        </p>
-                        <a href="#" class="button button--flex button--small portfolio__button">
-                            Demo
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!--==================== PORTFOLIO 8 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/img/Data-Karyawan-Pengelolaan-Karyawan.png" alt="" class="portfolio__img">
-
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">Online Employee Management System (Sipengkol)</h3>
-                        <p class="portfolio__description">
-                            Web for submission of online employee leave.
-                        </p>
-                        <a href="#" class="button button--flex button--small portfolio__button">
-                            Demo
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                </div>
 
             </div>
             <div class="swiper-button-next">
@@ -900,7 +788,8 @@
 
                     <div>
                         <h3 class="contact__title">Location</h3>
-                        <span class="contact__subtitle">Karawang - Indonesia</span>
+                        <span class="contact__subtitle">Pyatigorsk - Russia</span>
+                        <span class="contact__subtitle">Ready to move</span>
                     </div>
                 </div>
             </div>
@@ -942,7 +831,7 @@
     <div class="footer__bg">
         <div class="footer__container container grid">
             <div>
-                <h1 class="footer__title">Fadhila</h1>
+                <h1 class="footer__title">Sergey</h1>
                 <span class="footer__subtitle">Fullstack web developer</span>
             </div>
 
@@ -959,15 +848,15 @@
             </ul>
 
             <div class="footer__socials">
-                <a href="https://www.facebook.com/muhammadfadhila.abiyyufaris/" target="_blank" class="footer__social">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social">
                     <i class="uil uil-facebook-f"></i>
                 </a>
-                <a href="https://www.instagram.com/fadhila36" target="_blank" class="footer__social">
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social">
                     <i class="uil uil-instagram"></i>
                 </a>
             </div>
 
-            <p class="footer__copy">&#169; Some right reserved)</p>
+            <p class="footer__copy">&#169; All right not reserved</p>
         </div>
     </div>
 </footer>
@@ -977,12 +866,5 @@
     <i class="uil uil-arrow-up scrollup__icon"></i>
 </a>
 
-
-<!--==================== SWIPER JS ====================-->
-<script src="assets/js/swiper-bundle.min.js"></script>
-
-<!--==================== MAIN JS ====================-->
-<script src="assets/js/main.js"></script>
-<script src="emailSend.js"></script>
 </body>
 </html>
