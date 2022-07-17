@@ -211,3 +211,23 @@ themeButton.addEventListener("click", () => {
     localStorage.setItem("selected-theme", getCurrentTheme());
     localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+// Codewars
+// https://www.codewars.com/api/v1/users/sergeyCosilov
+fetch('https://www.codewars.com/api/v1/users/sergeyCosilov').then(function(response) {
+    return response.json();
+}).then(function(data) {
+    console.log("www.codewars.com data: ",data);
+    const codeWarsLevel = document.getElementById("code_wars_level");
+    const level = data?.ranks?.overall?.rank
+    const sliceLevel = data?.ranks?.overall?.rank?.toString().slice(1)
+    console.log(level, sliceLevel)
+    if (sliceLevel) {
+        console.log('code_wars__container!!')
+        codeWarsLevel.innerText = sliceLevel
+        const codeWarsContainer = document.getElementById("code_wars__container");
+        codeWarsContainer.style.display = "flex"
+    }
+}).catch(function(e) {
+    console.log("Error codewars request: ", e);
+});
