@@ -438,6 +438,7 @@ img {
 .about__info-name {
     display: block;
     text-align: center;
+    color: black;
 }
 
 .about__buttons {
