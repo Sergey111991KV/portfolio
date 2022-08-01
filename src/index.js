@@ -2,6 +2,7 @@ import Swiper from './swiper-bundle.min'
 import './emailSend'
 import './styles/styles.css'
 import './styles/swiper-bundle.min.css'
+import {sendEmail} from "@/emailSend";
 
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById("nav-menu");
@@ -231,3 +232,14 @@ fetch('https://www.codewars.com/api/v1/users/sergeyCosilov').then(function(respo
 }).catch(function(e) {
     console.log("Error codewars request: ", e);
 });
+
+
+const form = document.getElementById("form_email");
+form.addEventListener('submit', formSend)
+
+
+async function formSend () {
+    console.log('formSend')
+}
+
+sendEmail()

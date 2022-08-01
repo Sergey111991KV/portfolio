@@ -2,22 +2,16 @@ import emailjs from 'emailjs-com'
 // import apiKeys from './apikeys'
 
 
-// const sendEmail = e => {
-//     console.log('sendEmail')
-//     // e.preventDefault()
-//     //
-//     // emailjs
-//     //     .sendForm('gmail', apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
-//     //     .then(
-//     //         result => {
-//     //             console.log(result.text)
-//     //         },
-//     //         error => {
-//     //             console.log(error.text)
-//     //         }
-//     //     )
-// }
-//
-// // sendEmail()
+export const sendEmail = (form) => {
+    console.log('sendEmail')
+
+
+    emailjs.send('service_g8t19xy','template_hjfprfq', form, 'isQOBHLXPTbT9amLx')
+        .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+        }, function(err) {
+            console.log('FAILED...', err);
+        });
+}
 
 console.log('hi')

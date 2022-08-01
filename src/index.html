@@ -685,23 +685,23 @@
 
         <div class="contact__container container grid">
             <div>
-                <div class="contact__information">
+                <a href="tell:89283265831"  class="contact__information">
                     <i class="uil uil-phone contact__icon"></i>
 
                     <div>
                         <h3 class="contact__title">Call Me</h3>
                         <span class="contact__subtitle">+79283265831</span>
                     </div>
-                </div>
-                <div class="contact__information">
+                </a>
+                <a href="mailto:sergey.cosilov@gmail.com" class="contact__information">
                     <i class="uil uil-envelope contact__icon"></i>
-
                     <div>
                         <h3 class="contact__title">Email</h3>
                         <span class="contact__subtitle">sergey.cosilov@gmail.com</span>
                     </div>
-                </div>
-                <div class="contact__information">
+                </a>
+<!--                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22945.57737816253!2d43.05694021044985!3d44.03798227347266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1659294484426!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+                <a href="https://goo.gl/maps/RwpK99uW8EZ4He5EA" class="contact__information">
                     <i class="uil uil-map-marker contact__icon"></i>
 
                     <div>
@@ -710,37 +710,36 @@
                         <br/>
                         <span class="contact__subtitle">Ready to move</span>
                     </div>
-                </div>
+                </a>
             </div>
 
-            <form action="" class=".contact__form grid">
+            <form class="contact__form grid" id="form_email" action="#contact">
                 <div class="contact__inputs grid">
                     <div class="contact__content">
                         <label for="" class="contact__label">Name</label>
-                        <input type="text" class="contact__input">
+                        <input type="text" name="name" class="contact__input">
                     </div>
                     <div class="contact__content">
                         <label for="" class="contact__label">Email</label>
-                        <input type="email" class="contact__input">
+                        <input type="email" name="email" class="contact__input">
                     </div>
                 </div>
                 <div class="contact__content">
                     <label for="" class="contact__label">Project</label>
-                    <input type="text" class="contact__input">
+                    <input type="text" name="project" class="contact__input">
                 </div>
                 <div class="contact__content">
                     <label for="" class="contact__label">Message</label>
-                    <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
-                    <input type="text" class="contact__input">
+                    <textarea name="description" id="" cols="0" rows="7" class="contact__input"></textarea>
                 </div>
-
-                <div>
-                    <a href="#" class="button button--flex">
+                <button class="contact__form_button" type="submit">
+                    <a id="send_contact_button" href="#contact" class="button button--flex">
                         Send Message
                         <i class="uil uil-message button__icon"></i>
                     </a>
-                </div>
+                </button>
             </form>
+
         </div>
     </section>
 </main>
