@@ -233,13 +233,17 @@ fetch('https://www.codewars.com/api/v1/users/sergeyCosilov').then(function(respo
     console.log("Error codewars request: ", e);
 });
 
-
+// Form Send
 const form = document.getElementById("form_email");
-form.addEventListener('submit', formSend)
+form.addEventListener('submit', function (event) {
+    // stop form submission
+    event.preventDefault();
+    var elements = document.getElementById("form_email").elements;
+    var val ={};
+    for(var i = 0 ; i < elements.length ; i++){
+        var item = elements.item(i);
+        val[item.name] = item.value;
+    }
+    sendEmail(val);
+});
 
-
-async function formSend () {
-    console.log('formSend')
-}
-
-sendEmail()

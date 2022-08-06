@@ -118,7 +118,7 @@ module.exports = {
                 use: cssLoaders('sass-loader')
             },
             {
-                test: /\.(png|svg|jpeg|jpg|pdf)$/,
+                test: /\.(png|svg|jpeg|jpg|pdf|pages)$/,
                 type: 'asset/resource'
             },
             {

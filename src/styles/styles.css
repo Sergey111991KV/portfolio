@@ -505,9 +505,22 @@ img {
     margin-bottom: var(--mb-0-5);
 }
 
+.skills__titles:hover {
+    background-color: rgba(71, 51, 255, 0.1);
+}
+
+.skills__titles > span {
+    color: var(--first-color);
+}
+
 .skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+    cursor: pointer;
+}
+
+.skills__name:hover {
+    color: var(--first-color);
 }
 
 .skills__bar,
@@ -525,56 +538,56 @@ img {
     background-color: var(--first-color);
 }
 
-.skills__html {
-    width: 90%;
+.skills__5 {
+    width: 5%;
 }
 
-.skills__css {
-    width: 80%;
+.skills__10 {
+    width: 10%;
 }
 
-.skills__js {
-    width: 60%;
+.skills__15 {
+    width: 15%;
 }
 
-.skills__react {
-    width: 65%;
+.skills__20 {
+    width: 20%;
 }
 
-.skills__bootstrap {
-    width: 80%;
+.skills__25 {
+    width: 25%;
 }
 
-.skills__php {
-    width: 80%;
-}
-
-.skills__laravel {
-    width: 80%;
-}
-
-.skills__codeigniter {
-    width: 70%;
-}
-
-.skills__wordpress {
-    width: 70%;
-}
-
-.skills__figma {
+.skills__30 {
     width: 30%;
 }
 
-.skills__adobe {
-    width: 30%;
+.skills__35 {
+    width: 35%;
 }
 
-.skills__photoshop {
+.skills__40 {
+    width: 40%;
+}
+
+.skills__45 {
+    width: 45%;
+}
+
+.skills__50 {
     width: 50%;
 }
 
-.skills__ilustrator {
+.skills__55 {
+    width: 55%;
+}
+
+.skills__60 {
     width: 60%;
+}
+
+.skills__65 {
+    width: 65%;
 }
 
 .skills__close .skills__list {
@@ -594,6 +607,7 @@ img {
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2);
 }
