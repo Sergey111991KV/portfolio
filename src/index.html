@@ -621,13 +621,22 @@
                     <div class="portfolio__data">
                         <h3 class="portfolio__title">Tender Platform</h3>
                         <p class="portfolio__description">
-                            Web for online Tender Platform.
+                          Vue & Vuex & Antd
+                        </p>
+                        <p class="portfolio__description">
+                            Admin panel
+                        </p>
+                        <p class="portfolio__description">
+                            Cordova app
                         </p>
                         <a href="https://tenders-ui-r442h.ondigitalocean.app/"
                            class="button button--flex button--small portfolio__button">
                             Demo
                             <i class="uil uil-arrow-right button__icon"></i>
                         </a>
+                    </div>
+                    <div>
+                        <img src="<%=require('./assets/img/tenders.png')%>" alt="" class="about__img">
                     </div>
                 </div>
 
@@ -636,9 +645,9 @@
 <!--                    <img src="assets/img/render-farm.png" alt="" class="portfolio__img">-->
 
                     <div class="portfolio__data">
-                        <h3 class="portfolio__title">Render Farm</h3>
+                        <h3 class="portfolio__title">Web for online Render Farm</h3>
                         <p class="portfolio__description">
-                            Web for online Render Farm.
+                            Nuxt app from start to end
                         </p>
                         <a href="https://render-farm-6fdxx.ondigitalocean.app/"
                            class="button button--flex button--small portfolio__button">
@@ -646,18 +655,54 @@
                             <i class="uil uil-arrow-right button__icon"></i>
                         </a>
                     </div>
+                    <div>
+                        <img src="<%=require('./assets/img/render-farm.png')%>" alt="" class="about__img">
+                    </div>
                 </div>
 
-                <!--     ==================== PORTFOLIO 2 ====================-->
+                <!--     ==================== PORTFOLIO 3 ====================-->
                 <div class="portfolio__content grid swiper-slide">
 <!--                    <img src="assets/img/render-farm.png" alt="" class="portfolio__img">-->
 <!--                    <image class="home__blob-img"  xlink:href="<%=require('./assets/img/perfil.jpeg')%>" alt="image"/>-->
 
                     <div class="portfolio__data">
-                        <h3 class="portfolio__title">Convolo Dialer Extension</h3>
+                        <h3 class="portfolio__title">Convolo Dialer</h3>
+                        <p class="portfolio__description">
+                            Electron app with React
+                        </p>
                         <p class="portfolio__description">
                             Chrome extension for electron app.<br>
                             Help to work with Convolo Dialer App.
+                        </p>
+                        <p class="portfolio__description">
+                            Admin Cabinet on Angular
+                        </p>
+                        <p class="portfolio__description">
+                            Some experience on Webflow main site
+                        </p>
+                        <a href="https://chrome.google.com/webstore/detail/convolo-dialer-extension/jcbojklejkgnbcmeaemnkpbaaalmbmec?hl=en"
+                           class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <img src="<%=require('./assets/img/render-farm.png')%>" alt="" class="about__img">
+                    </div>
+                </div>
+
+                <!--     ==================== PORTFOLIO 4 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <!--                    <img src="assets/img/render-farm.png" alt="" class="portfolio__img">-->
+                    <!--                    <image class="home__blob-img"  xlink:href="<%=require('./assets/img/perfil.jpeg')%>" alt="image"/>-->
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Kid health platform</h3>
+                        <p class="portfolio__description">
+                           Nuxt platform
+                        </p>
+                        <p class="portfolio__description">
+                            Some experience for work on local company
                         </p>
                         <a href="https://chrome.google.com/webstore/detail/convolo-dialer-extension/jcbojklejkgnbcmeaemnkpbaaalmbmec?hl=en"
                            class="button button--flex button--small portfolio__button">
@@ -817,21 +862,21 @@
             <form name="form_email" class="contact__form grid" id="form_email">
                 <div class="contact__inputs grid">
                     <div class="contact__content">
-                        <label for="" class="contact__label">Name</label>
-                        <input type="text" name="name" class="contact__input" required>
+                        <label for="form_email_field_name" class="contact__label">Name</label>
+                        <input type="text" id="form_email_field_name" name="name" class="contact__input" required>
                     </div>
                     <div class="contact__content">
-                        <label for="" class="contact__label">Email</label>
-                        <input type="email" name="email" class="contact__input" required>
+                        <label for="form_email_field_email" class="contact__label">Email</label>
+                        <input id="form_email_field_email" type="email" name="email" class="contact__input" required>
                     </div>
                 </div>
                 <div class="contact__content">
-                    <label for="" class="contact__label">Project</label>
-                    <input type="text" name="project" class="contact__input" required>
+                    <label for="form_email_field_project" class="contact__label">Project</label>
+                    <input id="form_email_field_project" type="text" name="project" class="contact__input" required>
                 </div>
                 <div class="contact__content">
-                    <label for="" class="contact__label">Message</label>
-                    <textarea name="message" id="" cols="0" rows="7" class="contact__input" required></textarea>
+                    <label for="form_email_field_message" class="contact__label">Message</label>
+                    <textarea name="message" id="form_email_field_message" cols="0" rows="7" class="contact__input" required></textarea>
                 </div>
                 <button class="contact__form_button" type="submit">
                     <a id="send_contact_button" class="button button--flex">

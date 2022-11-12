@@ -36,6 +36,7 @@
     --normal-font-size: 0.938rem;
     --small-font-size: 0.893rem;
     --smaller-font-size: 0.75rem;
+    --very-smaller-font-size: 0.5rem;
 
     /*========== Font weight ==========*/
     --font-medium: 500;
@@ -68,6 +69,7 @@
         --normal-font-size: 1rem;
         --small-font-size: 0.875rem;
         --smaller-font-size: 0.813rem;
+        --very-smaller-font-size: 0.6rem;
     }
 }
 
@@ -960,7 +962,17 @@ img {
 .contact__label {
     font-size: var(--smaller-font-size);
     color: var(--title-color--white);
+    cursor: pointer;
 }
+
+.contact__label:target{
+    font-size: var(--very-smaller-font-size);
+}
+
+.contact__label:active{
+    font-size: var(--very-smaller-font-size);
+}
+
 
 /*==================== FOOTER ====================*/
 .footer {
