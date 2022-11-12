@@ -440,7 +440,7 @@ img {
 .about__info-name {
     display: block;
     text-align: center;
-    color: black;
+    color: var(--title-color);
 }
 
 .about__buttons {
@@ -945,7 +945,7 @@ img {
     align-items: center;
     justify-content: center;
     border: none;
-    background-color: white;
+    background-color: transparent;
 }
 
 .contact__input {
