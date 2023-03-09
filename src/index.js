@@ -1,7 +1,9 @@
 import Swiper from './swiper-bundle.min'
 import './emailSend'
+import './lang'
 import './styles/styles.css'
 import './styles/swiper-bundle.min.css'
+import './styles/header.scss'
 import {sendEmail} from "@/emailSend";
 
 /*==================== MENU SHOW Y HIDDEN ====================*/
