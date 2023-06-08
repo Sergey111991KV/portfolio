@@ -1,0 +1,38 @@
+@import url("./variable.css");
+
+.nav__multi_lang_toggle {
+  font-size: 1.2rem;
+  span {
+    padding : 30px;
+    background-color: var(--body-color);
+    color: var(--text-color);
+    font-size : 1.2em;
+    font-variant : small-caps;
+    cursor : pointer;
+    display: block;
+  }
+
+  .slide {
+    clear:both;
+    width:100%;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 11rem;
+    display: none;
+  }
+
+  .slide li {padding : 4px;}
+
+  #touch {position: absolute; opacity: 0; height: 0px;}
+
+  #touch:checked + .slide {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+
+}
+
