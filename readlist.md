@@ -1,0 +1,134 @@
+Thanks christofer15@yandex.ru for idea readlist - now all try to do it
+
+
+## 📖Здесь собраны статьи, которые я как то прочитывала и закрывала. А потом пыталась вспомнить: "где же я об этом читала?" и тратила по полчаса на поиски. Иногда вовсе не находила
+
+
+- [5 полезных советов по использованию console.log()](http://odinokun.com/2020-04-07-5-poleznyh-sovetov-po-ispolzovaniyu-console-log.html)
+- [11 вещей которые я узнал, читая спецификацию flexbox](https://habr.com/ru/post/329820/)
+- [А вы уже используете SVG-фавиконки? Руководство для современных браузеров](http://odinokun.com/2020-04-29-vy-uzhe-ispolzuete-ikonki-svg.html)
+- [Автозаполнение: чего не знают веб-разработчики, хотя должны знать](https://habr.com/ru/company/mailru/blog/301840/)
+- [Анимация контуров SVG-фигур](https://html5.by/blog/animate-svg-path/)
+- [Анонимные функции в JavaScript](https://medium.com/devschacht/anonymous-functions-in-javascript-ff6b9ba85de0)
+- [Антигерой CSS-разметки — свойство «display: table»](https://htmlacademy.ru/blog/boost/frontend/display-table-anti-hero) – про разметку «Holy Grail» с помощью display: table
+- [Бессмертные best practice в программировании](https://proglib.io/p/bessmertnye-best-practices-v-programmirovanii-na-lyubom-yazyke-2019-11-22)
+- [Вебпак на практике: с нуля до создания автотестов](https://tproger.ru/translations/webpack-from-zero-to-hero/)
+- [Вкладываете условия в условия? Это для вас](https://thecode.media/guard-clauses/)
+- [Вопросы для собеседования javascript разработчика](https://maxpfrontend.ru/vebinary/voprosy-dlya-sobesedovaniya-javascript-razrabotchika/)
+- [Вы используете devDependencies неправильно](https://incubator.flaks.dev/devdependencies-mistake)
+- [Выведение Action type с помощью Typescript](https://habr.com/ru/company/alfa/blog/452620/)
+- [Готовим идеальный CSS](https://habr.com/ru/company/constanta/blog/428800/)
+- [Дизайн сложных таблиц](https://www.andrewmarcus.ru/projects/publications/complex-tables-design/?ysclid=lbov9oxl3f509324486)
+- [Дорога в ад JavaScript-зависимостей](https://habr.com/ru/company/ruvds/blog/499668/) – про package-lock.json
+- [Дорогая цена стилей. Доклад Яндекса](https://habr.com/ru/company/yandex/blog/501998/)
+- [Извлекаем критический CSS](https://web-standards.ru/articles/critical-css/)
+- [Инклюзивные компоненты: меню и кнопки меню](https://medium.com/web-standards/menu-buttons-7f3aa1ad008d)
+- [История одного pet-проекта / Александр Зимин (Agora)](https://www.youtube.com/watch?app=desktop&v=WjHzVuewVJE&feature=youtu.be)
+- [Как генерировать осмысленные коммиты. Применяем стандарт Conventional Commits](https://habr.com/ru/company/yandex/blog/431432/) – с commitizen и husky
+- [Как оформить описание к Pull Request](https://medium.com/maddevs-io/%D0%BA%D0%B0%D0%BA-%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%B8%D1%82%D1%8C-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA-pull-request-e95ae0177212)
+- [Как писать классы по БЭМ?](http://yoksel.github.io/easy-markup/bem-rules/#elem-elem) – от yoksel
+- [Как подружить flexbox с Safari](https://habr.com/ru/post/330410/)
+- [Как правильно стилизовать :focus](https://medium.com/@baradusov/стилизуем-кнопки-правильно-6ea5abc278b1)
+- [Как уменьшить размер компонента React: 3 профессиональных приема](https://nuancesprog.ru/p/16204/)
+- [Как Medium выполняет прогрессивную загрузку изображений](https://medium.com/@kashitsyn/medium-image-progressive-loading-placeholder-1ae11c5fbde5)
+- [Менеджмент зависимостей в Javascript — управляем хаосом](https://tproger.ru/articles/menedzhment-zavisimostej-v-javascript-upravljaem-haosom/)
+- [Ключевое слово this в javascript — учимся определять контекст на практике](https://habr.com/ru/post/149516/)
+- [Лимитирование пропсов в React компонентах](https://www.youtube.com/watch?v=4mzl28OwRg4)
+- [Линтинг HTML с помощью CSS](https://front-end.su/linting-html-using-css)
+- [Медиавыражения в CSS — это не только max-width](https://habr.com/ru/post/475832/) – про css при инвертированных цветах и если у пользователя отключена анимация
+- [Недооцененные хуки React](https://webformyself.com/nedoocenennye-xuki-react/?ysclid=la3lxeaarr470885981) – особенно интересно про useImperativeHandle
+- [Немного о том, как работает виртуальный DOM в React](https://habr.com/ru/company/macloud/blog/558682/)
+- [Неочевидная особенность регулярных выражений в JavaScript](https://forweb.dev/ru/blog/stateful-regexps/)
+- [Нестандартные шрифты: как подключить и оптимизировать](https://habr.com/ru/company/htmlacademy/blog/552388/)
+- [Новая верстка страницы результатов поиска Яндекса](https://yandex.ru/blog/company/23106) – про один класс с двумя элементами в блоке
+- [Новые свойства и фишки CSS в 2022 году](https://ux.pub/dexa/novyie-svoistva-i-fishki-css-v-2022-ghodu-53o8)
+- [Оптимизация SVG для Веб](https://webformyself.com/optimizaciya-svg-dlya-veb/) – продвинутая оптимизация SVG через Adobe Illustrator
+- [Оптимизация и ускорение кода на примере Яндекс Поиска](https://habr.com/ru/company/yandex/blog/570914/) – интересный пункт про константную сложность цепочки с помощью lodash (shortcut fusion yes but https://github.com/lodash/lodash/issues/3601)
+- [Оптимизируем код при помощи shortcut fusion и ленивого вычисления](https://vk.com/wall-84793390_12948)
+- [Организация отступов в верстке (margin/padding)](https://habr.com/ru/post/340420/)
+- [Организация react-компонентов с помощью dot-notation и почему я часто прибегаю именно к этому способу](https://habr.com/ru/post/673378/?ysclid=la4vw3khjv103460928)
+- [Подсказки по именованию логических переменных](https://nuancesprog.ru/p/7423/) – отрицания в названиях быть не должно
+- [Помимо автоматизированного тестирования доступности: шесть вещей, которые я проверяю на каждом своём сайте](https://web-standards.ru/articles/six-things-i-check/)
+- [Понимание (всех) «модульных» форматов и инструментов JavaScript](https://habr.com/ru/post/501198/)
+- [Почему никто не рассказал мне это о CSS](https://medium.com/nuances-of-programming/%D0%BF%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D0%BD%D0%B8%D0%BA%D1%82%D0%BE-%D0%BD%D0%B5-%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BB-%D0%BC%D0%BD%D0%B5-%D1%8D%D1%82%D0%BE-%D0%BE-css-6cb08755724) – интересно про дорогие css свойства
+- [Правило «Ссылка на главную»](https://dangry.ru/oko/home/)
+- [Простая семантичная карточка-ссылка](https://ru.ariarzer.dev/tutorials/2022/easy-semantic-card-link.html)
+- [Пусть всем кажется, что всё грузится быстро, Виктор Русакович](https://www.youtube.com/watch?v=JRlCIPkwheA) – про скелетоны, как сделать, почему хорошо. Также есть ссылка на исследование где доказали, что пользователей бесят прогрессивные изображения.
+- [Работа с изображениями в веб](https://habr.com/ru/company/ruvds/blog/497876/)
+- [Рекомендации по приведению сайта к требованиям WCAG AA](https://github.com/govdesign/accessibility-guidelines/blob/master/Checklist.rst)
+- [Рендеринг в Интернете](https://developers.google.com/web/updates/2019/02/rendering-on-the-web?hl=ru)
+- [Рефакторинг на максималках: новая онлайн-книга](https://bespoyasov.ru/blog/refactor-like-a-superhero/) – от Саши Беспоясова
+- [Роутинг, бандлинг и ленивая загрузка на Webpack](https://web-standards.ru/articles/multiple-routes-webpack/)
+- [Руководство Google по стилю написания кода на языке TypeScript (перевод руководства "Google TypeScript Style Guide")](https://olegbarabanov.github.io/google-typescript-style-guide-ru/)
+- [Секреты использования семантической верстки в HTML5](https://medium.com/@stasonmars/%D1%81%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B8%CC%86-%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B8-%D0%B2-html5-c7cd5e6f1ebb)
+- [Cильно недооцененная уязвимость в безопасности target = "_blank"](http://odinokun.com/2020-06-09-target-blank-silno-nedoocenennaya-uyazvimost-v-bezopasnosti.html)
+- [Создание дизайн-системы в 5 частях](https://www.cat-in-web.ru/design-system-icons/)
+- [Список псевдоэлементов для стилизации элементов управления формы](https://css-live.ru/articles-css/spisok-psevdoelementov-dlya-stilizacii-elementov-upravleniya-formy.html)
+- [Chrome DevTools: Хитрости при отладке](https://habr.com/ru/post/587146/)
+- [CSS-изоляция](https://css-live.ru/articles/css-izolyaciya.html)
+- [CSS size-adjust для @font-face](https://webformyself.com/css-size-adjust-dlya-font-face/) – про масштабирование шрифта для уменьшения CLS
+- [Статья с HTMLAcademy, как делать круговую диаграмму средствами SVG и CSS](https://htmlacademy.ru/blog/boost/frontend/svg-chart)
+- [Техника предварительного размытия фонового изображения во время загрузки](https://webformyself.com/texnika-predvaritelnogo-razmytiya-fonovogo-izobrazheniya-vo-vremya-zagruzki/)
+- [То, что вам никто не говорил о z-index](https://habr.com/ru/post/166435/)
+- [Топ-10 вещей, раздражающих пользователей в Интернете](https://ux.pub/top-10-veschey-razdrazhayuschih-polzovateley-v-internete/)
+- [Упрощаем заполнение форм с помощью Autofill](https://frontender.info/checkout-faster-with-Autofill/)
+- [Ускоряем адаптив сайта в 3 раза с помощью scss-миксина](https://medium.com/@dan.postnov/%D1%83%D1%81%D0%BA%D0%BE%D1%80%D1%8F%D0%B5%D0%BC-%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%B2-3-%D1%80%D0%B0%D0%B7%D0%B0-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-scss-%D0%BC%D0%B8%D0%BA%D1%81%D0%B8%D0%BD%D0%B0-b9b1162c9fce)
+- [Фронтенд — это не больно](https://bespoyasov.ru/front-not-pain/#preface) – очень много полезняков для фронтендера как тестировщика, инженера, маркетолога и других его сторон
+- [Хватит использовать массивы! Как JavaScript Set ускоряет код](https://proglib.io/p/javascript-sets/)
+- [Хотел кликнуть, но не смог: как правильно настроить размер области клика](https://tproger.ru/articles/clickable-area/)
+- [Четыре стадии обучения](http://sergeykorol.ru/blog/competence/)
+- [Что дизайнеры могут сделать для доступности на уровне макетов](https://teletype.in/@romanshamin/a11y-for-designers)
+- [Что нужно знать о вёрстке под ретину](https://habr.com/ru/company/htmlacademy/blog/585864/)
+- [Я совсем забыл о стилях для печати](http://prgssr.ru/development/ya-sovsem-zabyl-o-stilyah-dlya-pechati.html)
+- [A Complete Guide To HTML Email](https://www.smashingmagazine.com/2021/04/complete-guide-html-email-templates-tools/)
+- [A Guide to using JSDoc for React.js | Better Documentation in React](https://www.inkoop.io/blog/a-guide-to-js-docs-for-react-js/) – про better-docs
+- [A Visual Guide to React Rendering - Refs](https://alexsidorenko.com/blog/react-render-refs/)
+- [Adding A Dyslexia-Friendly Mode To A Website](https://www.smashingmagazine.com/2021/11/dyslexia-friendly-mode-website/)
+- [Audio Reactive Shaders with Three.js and Shader Park](https://tympanus.net/codrops/2023/02/07/audio-reactive-shaders-with-three-js-and-shader-park/) – шейдеры, реагирующие на звук three js и Shaderpark
+- [Babel polyfill is dead. Long live core-js!](https://alexbogovich.com/blog/core-js/)
+- [Big O Cheetsheat](https://www.bigocheatsheet.com/) – шпаргалка по сложности алгоритмов
+- [Building performant expand & collapse animations](https://developer.chrome.com/blog/performant-expand-and-collapse/) – о том, что при анимации ширины и высоты теряется производительность и как лучше делать expand collapse области
+- [Creating an Accessible Image Carousel](https://www.aleksandrhovhannisyan.com/blog/image-carousel-tutorial/)
+- [Cube CSS](https://piccalil.li/blog/cube-css/) – еще одна CSS методология
+- [Design Systems: Useful Examples and Resources](https://www.smashingmagazine.com/2022/11/design-systems-inspiration-resources-case-studies/#shopify-if-and-more-data-visualization)
+- [Documenting Components](https://medium.com/eightshapes-llc/documenting-components-9fe59b80c015) – о том, как документировать компоненты, полезно при разработке дизайн систем и ui китов
+- [Effective titles and more](https://tomekdev.com/posts/effective-titles-and-more) – о том, как сделать title страниц полезным
+- [Enhance React onClick handlers with Currying](https://javascript.plainenglish.io/enhance-react-onclick-handlers-with-currying-9c3c9ca82df3) – о каррировании для onClick
+- [Filtering arrays with TypeScript type guards](https://www.skovy.dev/blog/typescript-filter-array-with-type-guard?seed=fbhugs) – про фикс typescript ошибки когда используем find
+- [Flexbox gutters and negative margins](https://www.rawkblog.com/2019/01/flexbox-gutters-negative-margins-solved/)
+- [Front-End Challenges](https://css-tricks.com/front-end-challenges/)
+- [Getting SVG path data for SVG Icon extension](http://lessons.livecode.com/m/33498/l/325452-getting-svg-path-data-for-svg-icon-extension)
+- [Grainy Gradients](https://css-tricks.com/grainy-gradients/) – о том как создать зернистый градиент с помощью CSS
+- [How Chrome handles updates to the web app manifest](https://web.dev/manifest-updates/) – манифест обновили а во вкладке Network приходит старый
+- [How to Cleanup Async Effects in React](https://dmitripavlutin.com/react-cleanup-async-effects/)
+- [How to Detect an “Invalid Date” Date Instance in JavaScript?](https://javascript.plainenglish.io/how-to-detect-an-invalid-date-date-instance-in-javascript-cfdf3d76bcd8)
+- [How to implement a Collapsible Overflow Menu in React](https://dev.to/shubhamreacts/how-to-implement-a-collapsible-overflow-menu-in-react-5cn8)
+- [Journey of a web page 🛣️ - How browsers work](https://dev.to/gitpaulo/journey-of-a-web-page-how-browsers-work-10co)
+- [My current HTML boilerplate](https://www.matuzo.at/blog/html-boilerplate/) – Мануэль Матузович делится шаблоном, с которого начинает вёрстку новых страниц, объясняя каждую его строчку
+- [Optimizing the Performance of Your React Application](https://auth0.com/blog/optimizing-react/) – про оптимизацию react приложений с помощью `react-addons-perf`
+- [Performance Profiling a Redux App](https://medium.com/@vcarl/performance-profiling-a-redux-app-c85e67bf84ae)
+- [Prevent history navigation on horizontally-scrolling elements with CSS](https://dev.to/danburzo/css-micro-tip-prevent-history-navigation-on-horizontally-scrolling-elements-3iil) – что сделать чтобы не было перехода между страницами когда скроллим вбок
+- [Protecting Against XSS Attacks in React](https://dev.to/thawkin3/protecting-against-xss-attacks-in-react-441m)
+- [React Cookbook: hooks dependency injection](https://medium.com/joyn-tech-blog/react-cookbook-hooks-dependency-injection-405958065443)
+- [Remove React.FC from Typescript template](https://github.com/facebook/create-react-app/pull/8177)
+- [Simple tips for writing clean React components](https://isamatov.com/simple-tips-for-writing-clean-react-components/) – несколько полезных советов для написания чистых react компонентов
+- [Smooth and simple transitions with the View Transitions API](https://developer.chrome.com/docs/web-platform/view-transitions/) – плавные переходы между страницами в Google Chrome
+- [Solid](https://ota-solid.vercel.app/) – все о солид
+- [Stop Using “&&” for Conditional Rendering in React Without Thinking](https://medium.com/geekculture/stop-using-for-conditional-rendering-in-react-a0f7b96200f8)
+- [Stop using JWT for sessions, part 2: Why your solution doesn't work](http://cryto.net/~joepie91/blog/2016/06/19/stop-using-jwt-for-sessions-part-2-why-your-solution-doesnt-work/)
+- [Stop using “return null” in React](https://medium.com/@davidkelley87/stop-using-return-null-in-react-a2ebf08fc9cd)
+- [Styling Broken Images](https://bitsofco.de/styling-broken-images/)
+- [Testing npm packages before publishing](https://medium.com/@vcarl/problems-with-npm-link-and-an-alternative-4dbdd3e66811) – про npm pack
+- [Top 10 React Hook Libraries](https://blog.bitsrc.io/top-10-react-hook-libraries-ca284ab3ae1d)
+- [The output element](https://css-tricks.com/the-output-element/)
+- [The Trickery it Takes to Create eBook-Like Text Columns](https://css-tricks.com/the-trickery-it-takes-to-create-ebook-like-text-columns/)
+- [useSyncExternalStore - The underrated React API](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api) – о сокращении ререндеров с react-router и не только
+- [Using dangerouslySetInnerHTML in a React application](https://blog.logrocket.com/using-dangerouslysetinnerhtml-in-a-react-application/)
+- [Using target="_blank" the right way](https://www.manjuladube.dev/target-blank-security-vulnerability) – о важности rel="noopener noreferrer"
+- [Why I don't use React.FC](https://fettblog.eu/typescript-react-why-i-dont-use-react-fc/)
+- [Why you shouldn't put refs in a dependency array](https://epicreact.dev/why-you-shouldnt-put-refs-in-a-dependency-array/)
+- [Your SSR is slow & your devtools are lying to you](https://dev.to/mlrawlings/your-ssr-is-slow-your-devtools-are-lying-to-you-3056) - о том как врут devtools когда включаем тротлинг
+
+
+(здесь будут статьи которые я пока не нашла)
+(респонсив форма на флексах без медиа выражений; о том как из поисковика гугл удалили лишние див тэги для оптимизации, статья с медиума и скрещивании бэма с другими методологиями)
